@@ -13,6 +13,7 @@
 		007CA9A8209178580031C3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007CA9A7209178580031C3D1 /* Assets.xcassets */; };
 		007CA9AB209178580031C3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CA9A9209178580031C3D1 /* LaunchScreen.storyboard */; };
 		007CA9AE209178580031C3D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CA9AD209178580031C3D1 /* main.m */; };
+		007CA9B7209179EB0031C3D1 /* NSObject+JTKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CA9B6209179EB0031C3D1 /* NSObject+JTKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		007CA9AA209178580031C3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007CA9AC209178580031C3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007CA9AD209178580031C3D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		007CA9B5209179EB0031C3D1 /* NSObject+JTKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JTKVO.h"; sourceTree = "<group>"; };
+		007CA9B6209179EB0031C3D1 /* NSObject+JTKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JTKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		007CA99D209178580031C3D1 /* JTKVO */ = {
 			isa = PBXGroup;
 			children = (
+				007CA9B4209179B50031C3D1 /* MyKVO */,
 				007CA99E209178580031C3D1 /* AppDelegate.h */,
 				007CA99F209178580031C3D1 /* AppDelegate.m */,
 				007CA9A1209178580031C3D1 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				007CA9AD209178580031C3D1 /* main.m */,
 			);
 			path = JTKVO;
+			sourceTree = "<group>";
+		};
+		007CA9B4209179B50031C3D1 /* MyKVO */ = {
+			isa = PBXGroup;
+			children = (
+				007CA9B5209179EB0031C3D1 /* NSObject+JTKVO.h */,
+				007CA9B6209179EB0031C3D1 /* NSObject+JTKVO.m */,
+			);
+			path = MyKVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007CA9B7209179EB0031C3D1 /* NSObject+JTKVO.m in Sources */,
 				007CA9A3209178580031C3D1 /* ViewController.m in Sources */,
 				007CA9AE209178580031C3D1 /* main.m in Sources */,
 				007CA9A0209178580031C3D1 /* AppDelegate.m in Sources */,
