@@ -41,6 +41,7 @@ static NSString *const kJTKVOAssiociateKey = @"kJTKVOAssiociateKey";
 
 - (void)JT_addObserver:(NSObject *)observer forKeyPatch:(NSString *)keyPath withBlock:(JTKVOBlock)jtBlock{
 //    NSMutableArray *observerInfoArray
+    SEL setterSeletor = NSSelectorFromString(setterForGetter(keyPath));
 }
 
 
@@ -48,4 +49,17 @@ static NSString *const kJTKVOAssiociateKey = @"kJTKVOAssiociateKey";
     
 }
 
+static Class JTKVO_Clsaa(id self){
+    return class_getSuperclass(object_getClass(self));
+}
+
+static NSString * setterForGetter(NSString *getter){
+    if (getter.length <= 0) {
+        return nil;
+    }
+    NSString *firstString = [[getter substringFromIndex:1] uppercaseString];
+    NSString *leaveString = [getter substringFromIndex:1];
+    
+    return [NSString stringWithFormat:@"set%@%@:",firstString,leaveString];
+}
 @end
