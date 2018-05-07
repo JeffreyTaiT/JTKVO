@@ -14,6 +14,7 @@
 		007CA9AB209178580031C3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CA9A9209178580031C3D1 /* LaunchScreen.storyboard */; };
 		007CA9AE209178580031C3D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CA9AD209178580031C3D1 /* main.m */; };
 		007CA9B7209179EB0031C3D1 /* NSObject+JTKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CA9B6209179EB0031C3D1 /* NSObject+JTKVO.m */; };
+		00A829CC20A02D8300599CBC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A829CB20A02D8300599CBC /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		007CA9AD209178580031C3D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		007CA9B5209179EB0031C3D1 /* NSObject+JTKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JTKVO.h"; sourceTree = "<group>"; };
 		007CA9B6209179EB0031C3D1 /* NSObject+JTKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JTKVO.m"; sourceTree = "<group>"; };
+		00A829CA20A02D8300599CBC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		00A829CB20A02D8300599CBC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				007CA9B4209179B50031C3D1 /* MyKVO */,
 				007CA99E209178580031C3D1 /* AppDelegate.h */,
 				007CA99F209178580031C3D1 /* AppDelegate.m */,
+				00A829CA20A02D8300599CBC /* Person.h */,
+				00A829CB20A02D8300599CBC /* Person.m */,
 				007CA9A1209178580031C3D1 /* ViewController.h */,
 				007CA9A2209178580031C3D1 /* ViewController.m */,
 				007CA9A4209178580031C3D1 /* Main.storyboard */,
@@ -157,6 +162,7 @@
 			files = (
 				007CA9B7209179EB0031C3D1 /* NSObject+JTKVO.m in Sources */,
 				007CA9A3209178580031C3D1 /* ViewController.m in Sources */,
+				00A829CC20A02D8300599CBC /* Person.m in Sources */,
 				007CA9AE209178580031C3D1 /* main.m in Sources */,
 				007CA9A0209178580031C3D1 /* AppDelegate.m in Sources */,
 			);
